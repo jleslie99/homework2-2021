@@ -14,7 +14,7 @@ div{
 /* All images */
 img{
     padding: 25px;
-    display: inline-block;
+    display: block;
     width: 550px;
     height: auto;
     align-items: center;
@@ -29,7 +29,7 @@ p{
 /* Specific Headers */
 h1{
     font-size: 64px;
-    align-items: center;
+    text-align: center;
     padding: 10px;
 }
 
