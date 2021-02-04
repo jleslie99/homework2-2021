@@ -1,0 +1,74 @@
+/* Styles for the whole body */
+body{
+    font-family: "Times New Roman", sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* All div elements */
+div{
+    padding: 25px;
+    min-height: 150px;
+}
+
+/* All images */
+img{
+    padding: 25px;
+    display: inline-block;
+    width: 550px;
+    height: auto;
+    align-items: center;
+}
+
+/* All paragraphs */
+p{
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+/* Specific Headers */
+h1{
+    font-size: 64px;
+    align-items: center;
+    padding: 10px;
+}
+
+h2{
+    font-size: 32px;
+    text-shadow: 4px 4px 2px #808080;
+}
+
+/* Specific Divs */
+#red{
+    background-color: #FF0000;
+    text-align: right;
+}
+
+#blue{
+    background-color: #0000FF;
+    text-align: left;
+}
+
+#yellow{
+    background-color: #FFFF00;
+    text-align: right;
+    color: #000000;
+}
+
+/* Header within yellow */
+#yellow h2{
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#green{
+    background-color: #008000;
+    text-align: left;
+}
+
+/* Paragraphs within footer */
+
+footer > p{
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
