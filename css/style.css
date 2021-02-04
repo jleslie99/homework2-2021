@@ -68,7 +68,7 @@ h2{
 /* Paragraphs within footer */
 
 footer > p{
-    align-items: center;
+    text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
 }
